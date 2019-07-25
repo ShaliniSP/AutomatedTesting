@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2019-06-13T06:54:36Z" name="Default suite" finished-at="2019-06-13T06:54:42Z" duration-ms="5957">
+    <groups>
+    </groups>
+    <test started-at="2019-06-13T06:54:36Z" name="Default test" finished-at="2019-06-13T06:54:42Z" duration-ms="5957">
+      <class name="MavenFramework.Testers">
+        <test-method is-config="true" signature="setSheet()[pri:0, instance:MavenFramework.Testers@1c93f6e1]" started-at="2019-06-13T06:54:36Z" name="setSheet" finished-at="2019-06-13T06:54:36Z" duration-ms="843" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setSheet -->
+        <test-method signature="runTest(java.util.Map)[pri:0, instance:MavenFramework.Testers@1c93f6e1]" started-at="2019-06-13T06:54:37Z" name="runTest" data-provider="requestAndResponse" finished-at="2019-06-13T06:54:41Z" duration-ms="3513" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{request=io.restassured.internal.RequestSpecificationImpl@5e746d37, testNo=1, method=post, resource=/api/v1/create, response={name=dfasdwe, salary=123}, responseCode=200}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runTest -->
+        <test-method signature="runTest(java.util.Map)[pri:0, instance:MavenFramework.Testers@1c93f6e1]" started-at="2019-06-13T06:54:41Z" name="runTest" data-provider="requestAndResponse" finished-at="2019-06-13T06:54:42Z" duration-ms="829" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{request=io.restassured.internal.RequestSpecificationImpl@6ae3fb94, testNo=2, method=get, resource=/api/v1/employee/45687, response={employee_salary=75000, id=45687}, responseCode=200}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runTest -->
+      </class> <!-- MavenFramework.Testers -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

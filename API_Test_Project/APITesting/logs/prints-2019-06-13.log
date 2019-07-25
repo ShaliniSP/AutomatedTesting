@@ -1,0 +1,8 @@
+12:24:37.732 [main] INFO  MavenFramework.Keywords - -----------------TEST: 1-------------
+
+12:24:37.747 [main] INFO  MavenFramework.Keywords - KEYWORD POST
+12:24:40.484 [main] DEBUG MavenFramework.Keywords - {"name":"dfasdwe","salary":"123","age":"23","id":"46128"}46128
+12:24:41.217 [main] INFO  MavenFramework.Keywords - EXPECTED RESPONSES AFTER CALLING API[name, salary]
+12:24:41.254 [main] INFO  MavenFramework.Keywords - -----------------TEST: 2-------------
+
+12:24:41.254 [main] INFO  MavenFramework.Keywords - KEYWORD GET

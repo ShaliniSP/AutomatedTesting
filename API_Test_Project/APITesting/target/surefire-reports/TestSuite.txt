@@ -1,0 +1,18 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 9.639 s <<< FAILURE! - in TestSuite
+runTest(MavenFramework.Testers)  Time elapsed: 1.141 s  <<< FAILURE!
+io.restassured.path.json.exception.JsonPathException: Failed to parse the JSON document
+	at MavenFramework.Testers.runTest(Testers.java:46)
+Caused by: groovy.json.JsonException: Lexing failed on line: 1, column: 18, while reading 'S', no possible valid JSON value or punctuation could be recognized.
+	at MavenFramework.Testers.runTest(Testers.java:46)
+
+runTest(MavenFramework.Testers)  Time elapsed: 0.819 s  <<< FAILURE!
+io.restassured.path.json.exception.JsonPathException: Failed to parse the JSON document
+	at MavenFramework.Testers.runTest(Testers.java:46)
+Caused by: groovy.json.JsonException: 
+A JSON payload should start with an openning curly brace '{' or an openning square bracket '['.
+Instead, 'false' was found on line: 1, column: 1
+	at MavenFramework.Testers.runTest(Testers.java:46)
+
